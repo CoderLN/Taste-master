@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'AFNetworking', "~> 2.6.3"
+pod 'SDWebImage', ‘~> 3.7.2’
+pod 'Reachability', '~> 3.0.0'
+pod 'FMDB/SQLCipher'

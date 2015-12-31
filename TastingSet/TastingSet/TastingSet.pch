@@ -1,0 +1,39 @@
+//
+//  TastingSet.pch
+//  TastingSet
+//  Copyright © 2015年 刘楠. All rights reserved.
+//
+
+#ifndef TastingSet_TastingSet_pch
+#define TastingSet_TastingSet_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "TastingSet.h"
+
+
+//------------分类头文件----------------//
+#import "UIImage+image.h"
+#import "UIView+size.h"
+#import "UIBarButtonItem+Extension.h"
+#import "NSStringUinity.h"
+//------------分类头文件----------------//
+
+//------------第三方头文件----------------//
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "Reachability.h"
+#import "WSProgressHUD.h"
+#import "SSKeychain.h"
+#import "JHRefresh.h"
+//------------第三方头文件----------------//
+
+#import "CustomActivityView.h"
+#import "CustomAlrter.h"
+#import "UserInfoModel.h"
+#import "UserModel.h"
+#import "NetDataEngine.h"
+#import "ParseData.h"
+
+#endif
